@@ -1,0 +1,38 @@
+@import "../../node_modules/bootstrap/scss/variables";
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+// colors
+$gold: #ffe071;
+$bckgrnd-drk: #363636;
+
+// fonts/text
+// font size
+$fnt-sz-sm: 0.7rem;
+$fnt-sz-md: 1rem;
+$fnt-sz-lg: 2rem;
+$fnt-sz-h1-sm: calc(0.375rem + 1vw);
+$txt-dec-und: underline;
+
+// nav
+// navbar
+$navbar-brand-padding-y: 0.5rem;
+$navbar-brand-padding-x: 0.5rem;
+
+// Headers
+$txt-algn-cntr: center;
+$txt-algn-str: start;
+$txt-algn-end: end;
+
+// justify/align
+$jstcont-end: end;
+$dsp-flx-flx: flex;
+$flx-drct-rw: row;
+$flx-drct-cl: column;

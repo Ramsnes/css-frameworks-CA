@@ -1,3 +1,29 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "_variables";
 @import "../../node_modules/bootstrap/scss/variables";
+@import "_custom-variables";
+@import "_custom-navbar";
+
+body {
+  background: $bckgrnd-drk;
+}
+
+.headers {
+  text-align: $txt-algn-cntr;
+  //   font-size: $fnt-sz-lg; redundant
+}
+
+h1 {
+  color: $gold;
+}
+
+.nav-link {
+  color: $gold;
+}
+
+.current {
+  text-decoration: $txt-dec-und;
+}
+
+.mobile h1 {
+  font-size: $fnt-sz-sm;
+}
