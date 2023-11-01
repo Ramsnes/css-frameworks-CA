@@ -1,7 +1,11 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../node_modules/bootstrap/scss/variables";
+@import "_profile.scss";
 @import "_custom-variables";
 @import "_custom-navbar";
+body {
+  font-family: $font-family-liberation-arial-sans-serif;
+}
 
 body {
   background: $bckgrnd-drk;
@@ -16,8 +20,9 @@ h1 {
   color: $gold;
 }
 
-.nav-link {
-  color: $gold;
+label,
+p {
+  color: $white;
 }
 
 .current {
@@ -26,4 +31,15 @@ h1 {
 
 .mobile h1 {
   font-size: $fnt-sz-sm;
+}
+
+// form
+form {
+  align-items: $algn-ctr;
+  display: $dsp-flx-flx;
+  flex-direction: $flx-drct-cl;
+}
+
+.narrow-input {
+  width: $wdth-sm; /* Adjust the width as needed */
 }

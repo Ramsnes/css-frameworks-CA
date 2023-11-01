@@ -1,5 +1,17 @@
 @import "../../node_modules/bootstrap/scss/navbar";
 
+navbar-nav {
+  // text-align: $algn-ctr;
+}
+
+.nav-link {
+  color: $gold;
+}
+
+.nav-link:hover {
+  color: $gold-hvr;
+}
+
 .navbar-nav {
   flex-direction: $flx-drct-rw;
   padding-right: $navbar-brand-padding-x;
@@ -17,7 +29,3 @@
   padding-right: $navbar-brand-padding-x;
   color: $gold;
 }
-
-// .navbar-toggler {
-//   background: $gold;
-// }
