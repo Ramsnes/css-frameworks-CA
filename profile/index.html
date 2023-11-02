@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="dist/css/index.css" />
+    <link rel="stylesheet" href="../dist/css/index.css" />
     <title>CodeSharing | Profile</title>
   </head>
   <body>
@@ -13,6 +13,54 @@
       <!-- List of user posts  -->
       <!-- Follow button  -->
       <!-- Area to display followers -->
+      <!-- nav  -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="collapse.show navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fs-3 text">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feed/index.html">Feed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link current" href="#">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- nav end -->
+
+      <!-- User  -->
+      <div class="container">
+        <div class="user d-flex flex-column align-items-center">
+          <p class="username">@Username</p>
+          <div class="profile-pic">
+            <img src="../images/morten.jpeg" alt="#" />
+          </div>
+          <button class="my-3">Followers</button>
+        </div>
+      </div>
+      <!-- User end -->
+
+      <!-- Footer  -->
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="feed/index.html" class="nav-link px-2">Feed</a>
+            </li>
+            <li class="nav-item">
+              <a href="profile/index.html" class="nav-link px-2">Profile</a>
+            </li>
+          </ul>
+          <p class="text-center">© 2023 CodeSharing, Inc</p>
+        </footer>
+      </div>
+      <!-- Footer end -->
     </main>
   </body>
 </html>
