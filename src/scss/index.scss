@@ -1,6 +1,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../node_modules/bootstrap/scss/variables";
 @import "profile.scss";
+@import "feed.scss";
 @import "_custom-variables";
 @import "_custom-navbar";
 
@@ -13,8 +14,13 @@ body {
   text-align: $txt-algn-cntr;
 }
 
-h1 {
+h1,
+h3 {
   color: $gold;
+}
+
+h2 {
+  color: $white;
 }
 
 label,
@@ -48,4 +54,19 @@ footer .nav-link {
 .login-btn {
   background: $gold;
   color: $black;
+}
+
+// .form-group,
+// .form-check {
+//   text-align: center;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
+// .form-control.narrow-input {
+//   text-align: center;
+// }
+
+.container {
+  max-width: 100%; /* Adjust the maximum width as needed */
 }
