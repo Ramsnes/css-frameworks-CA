@@ -3,14 +3,14 @@
 @import "profile.scss";
 @import "_custom-variables";
 @import "_custom-navbar";
+
 body {
-  font-family: $font-family-liberation-arial-sans-serif;
-  background: $bckgrnd-drk;
+  font-family: $font-family;
+  background: $blue-bckg;
 }
 
 .headers {
   text-align: $txt-algn-cntr;
-  //   font-size: $fnt-sz-lg; redundant
 }
 
 h1 {
@@ -43,4 +43,9 @@ form {
 
 footer .nav-link {
   color: $white;
+}
+
+.login-btn {
+  background: $gold;
+  color: $black;
 }

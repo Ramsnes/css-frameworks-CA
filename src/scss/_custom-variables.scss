@@ -14,15 +14,18 @@ $gold: #ffe071;
 $gold-hvr: #9e8a42;
 $bckgrnd-drk: #363636;
 $white: #fff;
+$black: #000;
+$blue-bckg: #151829;
+$pink: #eb1aa5;
 
 // fonts/text
 // font size
-$font-family-liberation-arial-sans-serif: Courier New, "Liberation Sans", Arial,
-  sans-serif;
+$font-family: "Source Code Pro", monospace, sans-serif;
 $fnt-sz-sm: 0.7rem;
 $fnt-sz-md: 1rem;
 $fnt-sz-lg: 2rem;
 $txt-dec-und: underline;
+$fnt-wgth: 650;
 
 // nav
 // navbar
@@ -44,6 +47,11 @@ $algn-ctr: center;
 // width/height/breakpoints
 $wdth-sm: 250px;
 $hgth-pic: 150px;
+$post-pic-sm: 50px;
+$wdth-crd-sm: 18rem;
+$wdth-max: 100%;
 
-// radius
+// border/radius
 $brdr-rdius-100: 100px;
+$brdr-rdius-10: 10px;
+$brdr-rdius-0: 0px;
