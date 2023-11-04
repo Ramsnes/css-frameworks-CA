@@ -46,11 +46,23 @@ $flx-drct-cl: column;
 $algn-ctr: center;
 
 // width/height/breakpoints
+$wdth-md-sm: 300px;
 $wdth-sm: 250px;
 $hgth-pic: 150px;
 $post-pic-sm: 50px;
 $wdth-crd-sm: 18rem;
+$wdth-1: 10%;
+$wdth-2: 20%;
+$wdth-3: 30%;
+$wdth-4: 40%;
+$wdth-5: 50%;
+$wdth-6: 60%;
+$wdth-7: 70%;
+$wdth-8: 80%;
+$wdth-9: 90%;
 $wdth-max: 100%;
+
+$vh-hgth-2: 20vh;
 
 // border/radius
 $brdr-rdius-100: 100px;
@@ -60,3 +72,10 @@ $brdr-rdius-0: 0px;
 // padding / margin
 $p-0: 0;
 $m-0: 0;
+
+// scale
+$scale-9: scale(0.9);
+$scale-10: scale(1);
+
+// transition
+$trans-0-3-ease: transform 0.3s ease;

@@ -1,17 +1,18 @@
 @import "_custom-variables.scss";
 
-#emailHelp {
-  color: $gray;
-}
-
-#exampleInputMessage {
-  height: 20vh;
-}
-
 .small-card {
-  max-width: 300px;
+  max-width: $wdth-md-sm;
 }
 
 .col-md-6 {
-  width: 30%;
+  width: $wdth-3;
+}
+
+.card {
+  transform: $scale-9;
+  transition: $trans-0-3-ease;
+}
+
+.card:hover {
+  transform: $scale-10;
 }
