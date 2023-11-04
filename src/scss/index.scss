@@ -43,10 +43,6 @@ form {
   flex-direction: $flx-drct-cl;
 }
 
-.narrow-input {
-  width: $wdth-sm; /* Adjust the width as needed */
-}
-
 footer .nav-link {
   color: $white;
 }
@@ -54,19 +50,4 @@ footer .nav-link {
 .login-btn {
   background: $gold;
   color: $black;
-}
-
-// .form-group,
-// .form-check {
-//   text-align: center;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-// }
-// .form-control.narrow-input {
-//   text-align: center;
-// }
-
-.container {
-  max-width: 100%; /* Adjust the maximum width as needed */
 }

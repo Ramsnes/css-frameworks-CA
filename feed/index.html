@@ -30,46 +30,43 @@
       </nav>
       <!-- nav end -->
 
+      <h2 class="mt-5 mb-4">Submit your post</h2>
+
+      <!-- second form  -->
       <div class="container col-lg-10 col-xl-8 col-xxl-6 d-flex flex-column">
-        <h2 class="mt-5 mb-4">Submit your post</h2>
-        <!-- Form  -->
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputSubject" class="form-label">Subject</label>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Write your subject"
-              id="exampleInputSubject"
-              aria-describedby="Subject"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputMessage" class="form-label">Message</label>
-            <input
-              type="text"
-              class="form-control"
-              type="text"
-              placeholder="Write your message"
-              aria-label="Message"
-              id="exampleInputMessage"
-            />
-            />
-          </div>
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1"
-              >I am human</label
-            >
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <!-- Form end -->
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Your subject"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Example textarea</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Your text here"
+          ></textarea>
+        </div>
+        <label for="formFile" class="form-label"
+          >Default file input example</label
+        >
+        <input class="form-control" type="file" id="formFile" />
       </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">I am human</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <!-- second form end -->
 
       <!-- Footer  -->
       <footer class="py-3 my-4 mt-auto">
