@@ -5,7 +5,14 @@
 @import "_custom-variables";
 @import "_custom-navbar";
 
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
+  margin: $m-0;
+  padding: $p-0;
+  box-sizing: border-box;
   font-family: $font-family;
   background: $blue-bckg;
 }
@@ -17,10 +24,12 @@ body {
 h1,
 h3 {
   color: $gold;
+  text-align: $algn-ctr;
 }
 
 h2 {
   color: $white;
+  text-align: $algn-ctr;
 }
 
 label,
@@ -41,6 +50,12 @@ form {
   align-items: $algn-ctr;
   display: $dsp-flx-flx;
   flex-direction: $flx-drct-cl;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 footer .nav-link {
