@@ -6,8 +6,8 @@
 @import "_custom-navbar";
 
 html {
-  position: relative;
-  min-height: 100%;
+  position: $ps-rltv;
+  min-height: $wdth-max;
 }
 body {
   margin: $m-0;
@@ -54,8 +54,8 @@ form {
 
 footer {
   position: relative;
-  bottom: 0;
-  width: 100%;
+  bottom: $btm-0;
+  width: $wdth-max;
 }
 
 footer .nav-link {

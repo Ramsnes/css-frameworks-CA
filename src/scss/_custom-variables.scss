@@ -9,6 +9,10 @@ $grid-breakpoints: (
   xxl: 1400px,
 );
 
+// positions
+$btm-0: 0;
+$ps-rltv: relative;
+
 // colors
 $gold: #ffe071;
 $gold-hvr: #9e8a42;
@@ -54,7 +58,9 @@ $wdth-crd-sm: 18rem;
 $wdth-1: 10%;
 $wdth-2: 20%;
 $wdth-3: 30%;
+$wdth-3px: 30px;
 $wdth-4: 40%;
+$wdth-4px: 40px;
 $wdth-5: 50%;
 $wdth-6: 60%;
 $wdth-7: 70%;

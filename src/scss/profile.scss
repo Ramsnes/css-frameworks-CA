@@ -30,8 +30,8 @@
   height: $post-pic-sm;
   border-radius: $brdr-rdius-100;
   overflow: hidden;
-  width: 40px;
-  height: 40px;
+  width: $wdth-4px;
+  height: $wdth-4px;
 }
 
 .card-text {
@@ -63,8 +63,5 @@
 }
 
 .username {
-  //   color: $gold;
-  //   background-color: $black;
   border-radius: $brdr-rdius-10;
-  //   font-weight: $fnt-wgth;
 }
